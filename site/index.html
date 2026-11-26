@@ -108,7 +108,7 @@
 <script src="https://cdn.jsdelivr.net/npm/ethers@6.13.4/dist/ethers.umd.min.js"></script>
 <script>
   // Filled in after deployment.
-  const CONTRACT_ADDRESS = "0x0000000000000000000000000000000000000000";
+  const CONTRACT_ADDRESS = "0x20D9DD9a57E775A0000B5b7965F7dD0E5514C588";
   const BSC_CHAIN_ID = 56n;
   const BSC_RPC = "https://bsc-dataseed.binance.org";
   const ABI = [
@@ -125,7 +125,7 @@
   const TIER_REQ = { 1: 3, 2: 7, 3: 14, 4: 30 };
 
   const $ = (id) => document.getElementById(id);
-  const deployed = CONTRACT_ADDRESS !== "0x0000000000000000000000000000000000000000";
+  const deployed = CONTRACT_ADDRESS !== "0x20D9DD9a57E775A0000B5b7965F7dD0E5514C588";
   let provider, signer, account, contract, readContract;
 
   $("contractAddr").textContent = deployed ? CONTRACT_ADDRESS : "not deployed yet";

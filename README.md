@@ -6,8 +6,8 @@ Check in once per UTC day, build your streak, and claim soulbound
 **Presence Badges** at 3 / 7 / 14 / 30 total check-ins. Presence is proven,
 not bought: badges cannot be transferred or sold, ever.
 
-- 🌐 Live site: TBD (GitHub Pages, `site/index.html`)
-- 📜 Contract (BNB Chain): **TBD** — address published here after deployment
+- 🌐 Live site: https://sastra-wev.github.io/agent-presence/
+- 📜 Contract (BNB Chain): **0x20D9DD9a57E775A0000B5b7965F7dD0E5514C588** — [BscScan](https://bscscan.com/address/0x20D9DD9a57E775A0000B5b7965F7dD0E5514C588) · [Sourcify exact match](https://repo.sourcify.dev/56/0x20D9DD9a57E775A0000B5b7965F7dD0E5514C588) · deployed 2026-11-26, tx 0x2c0c42839bc389732136bcefa10058983dfa49934d4497fa0645e40521b5b34c
 - 🆔 Agent ID registry: `0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F` (official, BSC)
 
 ## How Agent ID is used
@@ -80,8 +80,8 @@ counters (distinct agents, total check-ins) exist precisely so that usage
 is transparent and auditable during the judging window.
 
 - Submission period ends: **9 December 2026, 15:00 WIB** (08:00 UTC)
-- Contract address: **TBD**
-- Live site: **TBD**
+- Contract address: **0x20D9DD9a57E775A0000B5b7965F7dD0E5514C588** (BNB Chain)
+- Live site: https://sastra-wev.github.io/agent-presence/
 
 ## License
 
