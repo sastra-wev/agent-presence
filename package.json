@@ -1,0 +1,21 @@
+{
+  "name": "agent-presence",
+  "version": "0.1.0",
+  "description": "AgentPresence: daily check-in and soulbound badges for Binance Agent ID holders on BNB Chain",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/local-test.js",
+    "compile": "node scripts/compile.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "ethers": "^6.17.0",
+    "ganache": "^7.9.2",
+    "solc": "^0.8.39"
+  }
+}
